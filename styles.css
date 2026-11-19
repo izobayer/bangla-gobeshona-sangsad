@@ -100,9 +100,10 @@ button, input { font: inherit; }
 .committee-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
 .committee-card-faculty { border-top-color: var(--navy); border-top-width: 4px; background: linear-gradient(180deg, #f7fafc 0%, #fff 100%); }
 .committee-card-lead { border-top-color: var(--maroon); border-top-width: 4px; background: linear-gradient(180deg, #fffdf8 0%, #fff 100%); }
-.committee-avatar { width: 68px; height: 68px; display: grid; place-items: center; margin-bottom: 18px; border-radius: 50%; border: 2px solid rgba(91,23,13,.12); background: linear-gradient(135deg, rgba(91,23,13,.06), rgba(165,63,37,.12)); color: var(--maroon); font-family: var(--serif); font-size: 1.45rem; font-weight: 700; }
-.faculty-avatar { width: 74px; height: 74px; border-color: rgba(16, 62, 93, .22); background: linear-gradient(135deg, rgba(16, 62, 93, .1), rgba(224, 163, 43, .15)); color: var(--navy); font-size: 1.6rem; }
-.committee-card-lead .committee-avatar { width: 74px; height: 74px; border-color: rgba(91,23,13,.2); background: linear-gradient(135deg, rgba(224,163,43,.18), rgba(91,23,13,.1)); color: var(--maroon); font-size: 1.6rem; }
+.committee-avatar { position: relative; width: 72px; height: 72px; display: grid; place-items: center; margin-bottom: 18px; border-radius: 50%; overflow: hidden; border: 2px solid rgba(91,23,13,.12); background: linear-gradient(135deg, rgba(91,23,13,.06), rgba(165,63,37,.12)); color: var(--maroon); font-family: var(--serif); font-size: 1.45rem; font-weight: 700; flex-shrink: 0; }
+.committee-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block; }
+.faculty-avatar { width: 84px; height: 84px; border-color: rgba(16, 62, 93, .25); background: linear-gradient(135deg, rgba(16, 62, 93, .1), rgba(224, 163, 43, .15)); color: var(--navy); font-size: 1.7rem; box-shadow: 0 4px 14px rgba(16, 62, 93, .12); }
+.committee-card-lead .committee-avatar { width: 78px; height: 78px; border-color: rgba(91,23,13,.2); background: linear-gradient(135deg, rgba(224,163,43,.18), rgba(91,23,13,.1)); color: var(--maroon); font-size: 1.6rem; }
 .committee-info { display: flex; flex-direction: column; align-items: center; width: 100%; }
 .committee-role { display: inline-flex; align-items: center; justify-content: center; padding: 4px 14px; border-radius: 999px; background: rgba(91,23,13,.07); color: var(--rust); font-size: .8rem; font-weight: 800; letter-spacing: .02em; margin-bottom: 10px; }
 .faculty-role { background: rgba(16, 62, 93, .1); color: var(--navy); }
