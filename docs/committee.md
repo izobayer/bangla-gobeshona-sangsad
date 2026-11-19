@@ -44,7 +44,7 @@
 
 <div align="center">
 
-| <img src="../assets/tanvir-ahmed.jpg" width="120" style="border-radius:50%;"><br>**তানভীর আহমেদ** | <div style="width:120px;height:120px;line-height:120px;border-radius:50%;background:#5b170d;color:#fff;font-size:32px;margin:auto;">না</div><br>**নাহিন মুনতাহা** |
+| <img src="../assets/tanvir-ahmed.jpg" width="120" style="border-radius:50%;"><br>**তানভীর আহমেদ** | <img src="../assets/nahin-muntaha.jpg" width="120" style="border-radius:50%;"><br>**নাহিন মুনতাহা** |
 | :---: | :---: |
 | **সভাপতি** | **সাধারণ সম্পাদক** |
 | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় |
@@ -55,11 +55,14 @@
 
 ### সম্পাদকীয় পরিষদ
 
-| কর্মকর্তা | পদবী | বিভাগ ও প্রতিষ্ঠান |
-| :--- | :--- | :--- |
-| **উম্মে হাবিবা হ্যাপী** | অর্থ সম্পাদক | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় |
-| **আবুল বাসার** | দপ্তর সম্পাদক | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় |
-| **জান্নাতুল ফেরদৌস দিপ্তী** | প্রচার সম্পাদক | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় |
+<div align="center">
+
+| <img src="../assets/umme-habiba-happy.jpg" width="110" style="border-radius:50%;"><br>**উম্মে হাবিবা হ্যাপী** | <img src="../assets/abul-basar.jpg" width="110" style="border-radius:50%;"><br>**আবুল বাসার** | <img src="../assets/jannatul-ferdous-dipti.jpg" width="110" style="border-radius:50%;"><br>**জান্নাতুল ফেরদৌস দিপ্তী** |
+| :---: | :---: | :---: |
+| **অর্থ সম্পাদক** | **দপ্তর সম্পাদক** | **প্রচার সম্পাদক** |
+| বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় | বাংলা বিভাগ, ঢাকা বিশ্ববিদ্যালয় |
+
+</div>
 
 ---
 

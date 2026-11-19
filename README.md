@@ -66,11 +66,10 @@
 </div>
 
 ### কার্যনির্বাহী পরিষদ (সংক্ষিপ্ত)
-- **সভাপতি:** তানভীর আহমেদ
-- **সাধারণ সম্পাদক:** নাহিন মুনতাহা
-- **অর্থ সম্পাদক:** উম্মে হাবিবা হ্যাপী
-- **দপ্তর সম্পাদক:** আবুল বাসার
-- **প্রচার সম্পাদক:** জান্নাতুল ফেরদৌস দিপ্তী
+
+| <img src="assets/tanvir-ahmed.jpg" width="85" style="border-radius:50%;"><br>**তানভীর আহমেদ** | <img src="assets/nahin-muntaha.jpg" width="85" style="border-radius:50%;"><br>**নাহিন মুনতাহা** | <img src="assets/umme-habiba-happy.jpg" width="85" style="border-radius:50%;"><br>**উম্মে হাবিবা হ্যাপী** | <img src="assets/abul-basar.jpg" width="85" style="border-radius:50%;"><br>**আবুল বাসার** | <img src="assets/jannatul-ferdous-dipti.jpg" width="85" style="border-radius:50%;"><br>**জান্নাতুল ফেরদৌস দিপ্তী** |
+| :---: | :---: | :---: | :---: | :---: |
+| সভাপতি | সাধারণ সম্পাদক | অর্থ সম্পাদক | দপ্তর সম্পাদক | প্রচার সম্পাদক |
 
 👉 [পূর্ণাঙ্গ কমিটি ও দায়িত্ব বণ্টন দেখতে ক্লিক করুন ➔](docs/committee.md)
 
