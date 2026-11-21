@@ -73,20 +73,5 @@
     if (event.key === 'ArrowRight') showGalleryImage(activeImage + 1);
   });
 
-  const revealItems = document.querySelectorAll('.reveal');
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    revealItems.forEach(function (item) { observer.observe(item); });
-  } else {
-    revealItems.forEach(function (item) { item.classList.add('is-visible'); });
-  }
-
   document.getElementById('year').textContent = new Date().getFullYear().toLocaleString('bn-BD', { useGrouping: false });
 })();
