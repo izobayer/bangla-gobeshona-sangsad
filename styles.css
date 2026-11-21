@@ -257,9 +257,9 @@ h1, h2, h3, h4 { text-wrap: balance; }
   .primary-nav a { font-size: 0.8rem; }
   .hero-grid { grid-template-columns: 0.9fr 1.1fr; gap: 40px; }
   .hero-visual, .hero-visual img { min-height: 520px; height: 520px; }
-  .committee-officers { grid-template-columns: 1fr; }
-  .committee-officers .committee-card { grid-template-columns: 96px 1fr; }
-  .committee-officers .committee-avatar { width: 96px; height: 96px; }
+  .committee-officers { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  .committee-officers .committee-card { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+  .committee-officers .committee-avatar { width: 88px; height: 88px; }
 }
 
 @media (max-width: 960px) {
@@ -276,7 +276,7 @@ h1, h2, h3, h4 { text-wrap: balance; }
   .hero-visual, .hero-visual img { min-height: 540px; height: 540px; }
   .about-grid { grid-template-columns: 1fr; gap: 48px; }
   .gallery-intro { grid-template-columns: 1fr; gap: 28px; }
-  .committee-moderators, .committee-leads { grid-template-columns: 1fr; }
+  .committee-moderators, .committee-leads { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
   .contact-panel { grid-template-columns: 1fr; gap: 32px; }
   .archive-card { grid-template-columns: 1fr; }
@@ -308,8 +308,11 @@ h1, h2, h3, h4 { text-wrap: balance; }
   .event-details, .fee-grid, .activity-grid { grid-template-columns: 1fr; }
   .speaker-card, .schedule-card { padding: 24px; }
   .schedule-card div { grid-template-columns: 1fr; gap: 4px; }
-  .committee-card, .committee-officers .committee-card { gap: 16px; }
-  .committee-avatar, .committee-officers .committee-avatar { width: 84px; height: 84px; flex-basis: 84px; }
+  .committee-moderators, .committee-leads, .committee-officers { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; }
+  .committee-card, .committee-officers .committee-card { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding-block: 20px; }
+  .committee-avatar, .committee-officers .committee-avatar { width: 88px; height: 88px; flex: 0 0 88px; }
+  .committee-card-faculty .committee-name, .committee-card-lead .committee-name, .committee-name { font-size: 1.04rem; }
+  .committee-dept { font-size: 0.76rem; }
   .gallery-grid { grid-template-columns: 1fr 1fr; grid-auto-rows: 156px; gap: 6px; }
   .gallery-item-wide { grid-column: span 2; }
   .gallery-item-tall { grid-row: span 2; }
